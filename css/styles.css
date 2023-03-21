@@ -4,17 +4,17 @@ body{
  
 
 }
-.tt{
+.title{
     padding-top: 4%;
     font-size: 80px;
     font-family: "comfortaa",sans-serif;
 
 }
-.mt{
+.subtitle{
     font-size: 30px;
     font-family: "comfortaa",sans-serif;
 }
-.bk{
+.background{
     box-shadow: 0 4px 8px 0 rgba(74, 74, 74, 0.485) ;
     margin: 3%;
     background:linear-gradient(to top , #dcdcdc 40%, white
@@ -29,7 +29,7 @@ h3{
     padding-bottom: 5%;
 }
 
-.banana{
+.boxes{
     opacity: 1;
     transition: .5s ease;
      justify-content: center;
@@ -38,8 +38,9 @@ h3{
     text-align: center;
     flex-wrap: wrap;
 }
-.banana :hover{
+.boxes :hover{
     opacity: .5;
+    
     transition: .5s ease;
     
 
@@ -47,7 +48,7 @@ h3{
 
 
 
-#s1{
+#tinybox{
     border-radius: 10px;
     margin: 2%;
     padding: 11%;
